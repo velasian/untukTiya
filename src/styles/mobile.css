@@ -1,0 +1,49 @@
+/* Mobile-Specific Adaptations and Micro-Animations */
+
+@media (max-width: 480px) {
+  body {
+    padding: 12px 10px 48px;
+  }
+
+  .glass-card {
+    border-radius: 18px;
+    padding: 18px 14px;
+  }
+
+  .section-header h2 {
+    font-size: 1.35rem;
+  }
+}
+
+/* Micro-animations */
+@keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-heart {
+  display: inline-block;
+  animation: heartPulse 2s infinite ease-in-out;
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-enter {
+  animation: slideUpFade 0.4s ease-out forwards;
+}

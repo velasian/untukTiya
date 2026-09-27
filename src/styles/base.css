@@ -1,0 +1,128 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  padding: 16px 12px 60px;
+}
+
+.mobile-container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+p {
+  color: var(--text-muted);
+}
+
+/* Glassmorphism Card Utility */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+/* Badge System */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font-size: 0.775rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.3px;
+}
+
+.badge-tiya {
+  background: var(--tiya-bg);
+  color: var(--tiya-color);
+  border: 1px solid var(--tiya-border);
+}
+
+.badge-rey {
+  background: var(--rey-bg);
+  color: var(--rey-color);
+  border: 1px solid var(--rey-border);
+}
+
+.badge-success {
+  background: var(--success-bg);
+  color: var(--success);
+  border: 1px solid var(--success-border);
+}
+
+/* Buttons */
+.btn {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 12px 20px;
+  min-height: 46px;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: var(--transition);
+  touch-action: manipulation;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary) 0%, #f43f5e 100%);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(225, 29, 72, 0.3);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* Spacing Helpers */
+.section-spacer {
+  margin-top: 32px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+
+.section-header h2 {
+  font-size: 1.45rem;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.section-header p {
+  font-size: 0.925rem;
+}

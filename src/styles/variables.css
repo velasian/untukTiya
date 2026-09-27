@@ -1,0 +1,47 @@
+:root {
+  /* Color Palette - Soft Romantic Modern */
+  --bg-gradient: linear-gradient(180deg, #fff7f8 0%, #fdf2f8 40%, #f5f3ff 100%);
+  --bg-card: rgba(255, 255, 255, 0.92);
+  --border-card: rgba(244, 114, 182, 0.22);
+  --border-highlight: rgba(225, 29, 72, 0.35);
+
+  /* Brand Accents */
+  --primary: #e11d48;
+  --primary-light: #ffe4e6;
+  --primary-hover: #be123c;
+  
+  --tiya-color: #ec4899;
+  --tiya-bg: #fdf2f8;
+  --tiya-border: #fbcfe8;
+
+  --rey-color: #4f46e5;
+  --rey-bg: #eff6ff;
+  --rey-border: #bfdbfe;
+
+  --success: #059669;
+  --success-bg: #ecfdf5;
+  --success-border: #a7f3d0;
+
+  /* Text Colors */
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-light: #94a3b8;
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px rgba(225, 29, 72, 0.08);
+  --shadow-lg: 0 16px 36px rgba(79, 70, 229, 0.1);
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition: all 0.25s ease;
+}
